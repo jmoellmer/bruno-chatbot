@@ -16,7 +16,7 @@ This application leverages OpenAI's Assistants API to create a custom assistant 
 ## RESULTS
 
 - Polished interface that can remember past messages and helps customers understand your products.
-- Incorporates AI into an app: Shows how to do an Generative AI integration.
+- Incorporates AI into an app: Shows how to do a Generative AI integration.
 - Trained AI for an end-product.
 
 
