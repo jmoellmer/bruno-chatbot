@@ -46,6 +46,8 @@ jeff@Jeffs-Laptop bruno-chatbot % npm i --save-dev @types/dompurify
 Creating an AI Assistant
 OpenAI - https://openai.com/ 
 
+npm i openai
+
 Waiting for Pending Requests
 Heroicons - https://heroicons.com/
 
