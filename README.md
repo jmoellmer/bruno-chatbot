@@ -1,75 +1,23 @@
-# Nuxt 3 Minimal Starter
+# ChatBox with Nuxt, TypeScript, and OpenAI Assistants API
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Submitting Chat Messages
 
-## Setup
+## WHAT IS THIS?
 
-Make sure to install the dependencies:
+This application leverages OpenAI's Assistants API to create a custom assistant for a product or service. Assistants can be tuned to respond to your customers according to any personality you wish. My application uses this API to create a chatbot to provide basic customer support for XXX product.
 
-```bash
-# npm
-npm install
+## UNDER THE HOOD
 
-# pnpm
-pnpm install
+- OpenAI Assistants API
+- Uses Nuxt to power communication between user and AI-powered chatbox.
+- Vue
+- TypeScript
 
-# yarn
-yarn install
+## RESULTS
 
-# bun
-bun install
-```
+- Polished interface that can remember past messages and helps customrs understand you products.
+- Incorporates AI into an app: Shows how to do an Generative AI integration.
+- Trained AI for an end-product.
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
