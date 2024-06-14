@@ -36,6 +36,13 @@ Nuxt Guide - https://nuxt.com/docs/guide
 Processing Markdown
 Marked - https://marked.js.org/ 
 
+XSS Sanitizer
+https://github.com/cure53/DOMPurify
+
+jeff@Jeffs-Laptop bruno-chatbot % npm i marked
+jeff@Jeffs-Laptop bruno-chatbot % npm i dompurify
+jeff@Jeffs-Laptop bruno-chatbot % npm i --save-dev @types/dompurify
+
 Creating an AI Assistant
 OpenAI - https://openai.com/ 
 
