@@ -25,7 +25,6 @@ Starting a Nuxt Project
 Nuxt - https://nuxt.com/ 
 
 Adding the Template
-HTML Template - https://gist.github.com/ZTMLuisRamirez/26b95447549c6b383cd8c2154857b9d5 
 Cool Backgrounds - https://coolbackgrounds.io/ 
 
 Installing Nuxt Modules
@@ -39,7 +38,6 @@ Marked - https://marked.js.org/
 
 Creating an AI Assistant
 OpenAI - https://openai.com/ 
-ZeroToMastery Information PDF - see below to download attachment
 
 Waiting for Pending Requests
 Heroicons - https://heroicons.com/
