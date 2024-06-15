@@ -69,7 +69,7 @@ const { pending } = await useFetch("/api/message", {
                 name: "Bruno",
                 isBruno: true,
                 message: content.text.value,
-                timestamp: new Date().toLocaleString({}, {
+                timestamp: new Date().toLocaleString([], {
                     timeStyle: "short",
                 })
 

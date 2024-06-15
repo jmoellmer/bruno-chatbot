@@ -1,11 +1,10 @@
-import { client } from "../utilities/openai";
+import { client, assistant } from "../utilities/openai";
 import { getLatestMessages } from "../utilities/get-message";
 
 export default defineEventHandler(async (event) => {
     const threadID = getCookie(event, "thread-id");
-    const runID = getCookie(event, "run-id");
 
-    if (!threadID || !runID) {
+    if (!threadID) {
         return;
     }
 
@@ -15,5 +14,9 @@ export default defineEventHandler(async (event) => {
         content: queryParams.message?.toString() ?? "",
     });
 
-    return await getLatestMessages(threadID, runID);
+    const run = await client.beta.threads.runs.create(threadID, {
+        assistant_id: assistant,
+    });
+
+    return await getLatestMessages(threadID, run.id);
 });
