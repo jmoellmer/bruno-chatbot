@@ -15,7 +15,10 @@
                     class="transition w-full bg-blue-950 text-slate-300 font-medium py-2 px-3 rounded hover:bg-opacity-90">
                     Start a New Chat
                 </button>
-                <button type="button"
+                <button 
+                    v-if="thread && run"
+                    @click="isChatting = true"
+                    type="button"
                     class="transition w-full bg-slate-200 text-slate-600 font-medium py-2 px-3 rounded hover:bg-opacity-90">
                     Continue Previous Chat
                 </button>

@@ -1,5 +1,7 @@
 export const useCustomer = () => {
-    const customerName = useState("customerName", () => "");
+    const customerName = useCookie("customerName", {
+        default: () => "",
+    });
     const hasNameError = computed(() => customerName.value.length < 2);
     const customerInitials = computed(() => {
         const names = customerName.value.split(" ");
