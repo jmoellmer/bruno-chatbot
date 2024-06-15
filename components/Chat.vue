@@ -51,4 +51,23 @@
 <script setup lang="ts">
 const messages = useMessages();
 const { customerInitials } = useCustomer();
+
+await useFetch("/api/message", {
+    lazy: true,
+    onResponse({ response }) {
+        const content = response._data.data[0].content[0];
+
+        if (content?.type == "text") {
+            messages.value.push({
+                name: "Bruno",
+                isBruno: true,
+                message: content.text.value,
+                timestamp: new Date().toLocaleString({}, {
+                    timeStyle: "short",
+                })
+
+            });
+        }
+    },
+});
 </script>
